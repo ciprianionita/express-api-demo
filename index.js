@@ -19,6 +19,7 @@ app.use("/", patientRouter);
 
 // Start the server
 app.listen(port, (err) => {
+    // Check for errors
     if (err) {
         console.log(err);
         return;
