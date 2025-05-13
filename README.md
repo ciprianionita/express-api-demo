@@ -102,7 +102,7 @@ You can use tools like curl, Postman, or Insomnia to interact with the API endpo
 
 Here are some examples of how you can test the API endpoints using Postman:
 
-1. Get all patients (GET /patients)
+**1. Get all patients (GET /patients)**
 
 -   Open Postman and create a new request.
 -   Select the GET method.
@@ -110,7 +110,7 @@ Here are some examples of how you can test the API endpoints using Postman:
 -   Click Send.
 -   Expected response: A JSON array of patient objects (as shown in the "Endpoints" section).
 
-2. Add a new patient (POST /patients)
+**2. Add a new patient (POST /patients)**
 
 -   Create a new request in Postman.
 -   Select the POST method.
@@ -130,7 +130,7 @@ Here are some examples of how you can test the API endpoints using Postman:
 -   Click Send.
 -   Expected Response: A success or error message in JSON format.
 
-3. Update a patient (PUT /patient/:id)
+**3. Update a patient (PUT /patient/:id)**
 
 -   Create a new request in Postman.
 -   Select the PUT method.
@@ -149,7 +149,7 @@ Here are some examples of how you can test the API endpoints using Postman:
 -   Click Send.
 -   Expected Response: A success or error message in JSON format.
 
-4. Delete a Patient (DELETE /patient/:id)
+**4. Delete a Patient (DELETE /patient/:id)**
 
 -   Create a new request in Postman.
 -   Select the DELETE method.
